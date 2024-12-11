@@ -9,7 +9,7 @@
 
 <body>
     <?php
-    $numero = 025;
+    $numero = 25;
     echo "El numero es: " . $numero;
 
     ?>
