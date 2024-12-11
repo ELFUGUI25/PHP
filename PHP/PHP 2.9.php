@@ -10,10 +10,8 @@
 <body>
     <?php
     $cadena = "Este es el resultado:";
-
     $numero = 42;
 
-    echo "Mensaje: $cadena\n";
     echo "Número: $numero\n";
     ?>
 </body>
