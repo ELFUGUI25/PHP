@@ -9,8 +9,8 @@
 
 <body>
     <?php
-    $numero1 = 2;
-    $numero2 = 2;
+    $numero1 = 1234;
+    $numero2 = 532;
 
     $suma = $numero1 + $numero2;
 
