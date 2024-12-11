@@ -14,7 +14,7 @@
 
     $suma = $numero1 + $numero2;
 
-    echo "El número decimal es: $suma";
+    echo "El número es: $suma";
     ?>
 </body>
 

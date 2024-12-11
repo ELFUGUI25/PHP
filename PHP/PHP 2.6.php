@@ -15,7 +15,7 @@
 
     $resta = $numero1 - $numero2;
 
-    echo "El número decimal es: $resta";
+    echo "El número es: $resta";
     ?>
 </body>
 
