@@ -10,11 +10,11 @@
 <body>
     <?php
     $numero1 = 2;
-    $numero1 = 2;
+    $numero2 = 2;
 
     $suma = $numero1 + $numero2;
 
-    echo "El número decimal es: " . $suma;
+    echo "El número decimal es: $suma";
     ?>
 </body>
 
