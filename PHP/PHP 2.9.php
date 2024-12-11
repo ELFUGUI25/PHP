@@ -12,7 +12,8 @@
     $cadena = "Este es el resultado:";
     $numero = 42;
 
-    echo "Número: $numero\n";
+    echo "Mensaje: $cadena";
+    echo "Número: $numero";
     ?>
 </body>
 
