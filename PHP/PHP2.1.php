@@ -8,9 +8,8 @@
 </head>
 
 <body>
-    <?php
-    echo "<p> Hola, ya se imprimir frases </p>"
-        ?>
+    <?php echo "<p> Hola, ya se imprimir frases </p>" ?>
+
 </body>
 
 </html>
