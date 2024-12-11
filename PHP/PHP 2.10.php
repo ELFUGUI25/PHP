@@ -11,7 +11,7 @@
     <?php
     $variable = "Estes es el valor:";
 
-    echo "Mensaje: $variable";
+    echo "Mensaje: $variable\n";
     ?>
 </body>
 
