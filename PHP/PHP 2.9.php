@@ -9,7 +9,7 @@
 
 <body>
     <?php
-    $cadena = "Hola, este es un mensaje de ejemplo.";
+    $cadena = "Este es el resultado:";
 
     $numero = 42;
 
