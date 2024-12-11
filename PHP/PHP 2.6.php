@@ -8,7 +8,6 @@
 </head>
 
 <body>
-    dy>
     <?php
     $numero1 = 169;
     $numero2 = 100;
