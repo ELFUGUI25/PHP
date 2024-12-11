@@ -9,7 +9,7 @@
 
 <body>
     <?php
-    $numero_decimal = ;
+    $numero_decimal = 6.9;
 
     echo "El número decimal es: " . $numero_decimal;
     ?>
