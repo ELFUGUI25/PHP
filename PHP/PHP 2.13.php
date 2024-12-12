@@ -9,12 +9,12 @@
 
 <body>
     <?php
-    $real1 = 10.5;
-    $real2 = 20.7;
+    $num1 = 10.5;
+    $num2 = 20.7;
 
-    $suma = $real1 + $real2;
+    $suma = $num1 + $num2;
 
-    echo "La suma de $real1 y $real2 es: $suma";
+    echo "La suma de $num1 y $num2 es: $suma";
     ?>
 
 </body>
