@@ -11,7 +11,7 @@
     <?php
     $kilobytes = 1;
     $megabytes = $kilobytes * 0.001;
-    $terabytes = $megabytes * 0.0000001;
+    $terabytes = $megabytes * 0.001;
 
     echo "Equivalente en terabytes: $terabytes teras <br>";
     echo "Equivalente en megabytes: $megabytes megas";
