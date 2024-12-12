@@ -9,12 +9,14 @@
 
 <body>
     <?php
-    $num1 = 10.5;
-    $num2 = 20.7;
+        $segundos = 3671; 
 
-    $suma = $num1 + $num2;
-
-    echo "La suma de $num1 y $num2 es: $suma";
+        total_minutos = intdiv($segundos, 60);
+        horas = intdiv($total_minutos, 60);
+        minutos_restantes = $total_minutos % 60;
+        segundos_restantes = $segundos % 60;
+        
+$horas, 
     ?>
 </body>
 
