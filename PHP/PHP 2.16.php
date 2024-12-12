@@ -9,11 +9,12 @@
 
 <body>
     <?php
-    echo "Te voy a pedir el nombre para saludarte";
-    $nombre = David;
 
-    echo "Me llamo $nombre  <br>";
-    echo "Hola $nombre ";
+    echo "IA: Te voy a pedir el nombre para saludarte <br>";
+    $nombre = 'David';
+
+    echo "Yo: Me llamo $nombre  <br>";
+    echo "IA: Hola $nombre ";
     ?>
 </body>
 
