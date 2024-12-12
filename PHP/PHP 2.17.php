@@ -10,7 +10,7 @@
 <body>
     <?php
 
-    echo "Vamos a pasar de grados a Fahrenheit <br>";
+    echo " <strong> Vamos a pasar de grados a Fahrenheit </strong> <br>";
     $grados = 25;
     $fahren = ($grados * 1.8) + 32;
 
