@@ -9,16 +9,12 @@
 
 <body>
     <?php
-    $segundos = 60;
-    //Se utiliza la función intdiv() para dividir los segundos entre 60, ya que hay 60 segundos en un minuto
-    $total_minutos = intdiv($segundos, 60);
-    $horas = intdiv($total_minutos, 60);
-    $minutos_restantes = $total_minutos % 60;
-    $segundos_restantes = $segundos % 60;
+    $segundos = 3600;
+    $minutos = $segundos / 60;
+    $horas = $minutos / 60;
 
-
-    echo "Por favor, ingresa una cantidad de segundos: $segundos <br>";
-    echo "Equivalente en horas: $horas horas, $minutos_restantes minutos y $segundos_restantes segundos.";
+    echo "Equivalente en horas: $horas h <br>";
+    echo "Equivalente en minutos: $minutos min";
     ?>
 
 </body>
