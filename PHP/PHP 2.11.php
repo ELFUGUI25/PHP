@@ -14,9 +14,9 @@
     $variable3 = 9;
     $media = ($variable1 + $variable2 + $variable3) / 3;
 
-    echo "La nota es: $variable1";
-    echo "La nota es: $variable2";
-    echo "La nota es: $variable3";
+    echo "La nota es: $variable1 <br>";
+    echo "La nota es: $variable2 <br>";
+    echo "La nota es: $variable3 <br>";
 
     echo "La media de las notas es: $media";
     ?>
