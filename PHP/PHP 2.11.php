@@ -9,9 +9,9 @@
 
 <body>
     <?php
-    $variable1 = "Nota:";
-    $variable2 = "Nota:";
-    $variable3 = "Nota:";
+    $variable1 = 5;
+    $variable2 = 7;
+    $variable3 = 9;
     $media = ($variable1 + $variable2 + $variable3) / 3;
 
     echo "La nota es: $variable1";
