@@ -10,7 +10,7 @@
 <body>
     <?php
     $real = 10.5;
-    $cadena = "Hola, este es un ejemplo. <br>";
+    $cadena = 1;
 
     echo "El valor de la variable real es: $real <br>";
     echo "El valor de la variable cadena es: $cadena <br>";
