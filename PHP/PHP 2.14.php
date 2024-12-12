@@ -9,7 +9,7 @@
 
 <body>
     <?php
-    $segundos = intval(trim(fgets(STDIN)));
+    $segundos = 60;
 
     $total_minutos = intdiv($segundos, 60);
     $horas = intdiv($total_minutos, 60);
@@ -18,7 +18,7 @@
 
 
     echo "Por favor, ingresa una cantidad de segundos: $segundos <br>";
-    echo "Equivalente en horas: $horas horas, $minutos_restantes minutos y $segundos_restantes segundos.\n";
+    echo "Equivalente en horas: $horas horas, $minutos_restantes minutos y $segundos_restantes segundos.";
     ?>
 
 </body>
