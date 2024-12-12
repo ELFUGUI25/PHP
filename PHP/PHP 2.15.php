@@ -9,7 +9,7 @@
 
 <body>
     <?php
-    $kilobytes = 1;
+    $kilobytes = 100;
     $megabytes = $kilobytes * 0.001;
     $terabytes = $megabytes * 0.001;
 
