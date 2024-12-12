@@ -10,7 +10,7 @@
 <body>
     <?php
     $segundos = 60;
-
+    //Se utiliza la función intdiv() para dividir los segundos entre 60, ya que hay 60 segundos en un minuto
     $total_minutos = intdiv($segundos, 60);
     $horas = intdiv($total_minutos, 60);
     $minutos_restantes = $total_minutos % 60;
