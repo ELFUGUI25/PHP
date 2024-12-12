@@ -13,8 +13,8 @@
     $megabytes = $kilobytes * 0.001;
     $terabytes = $megabytes * 0.001;
 
-    echo "Equivalente en terabytes: $terabytes teras <br>";
-    echo "Equivalente en megabytes: $megabytes megas";
+    echo "Equivalente en megabytes: $terabytes megas <br>";
+    echo "Equivalente en terabytes: $megabytes teras";
     ?>
 </body>
 
