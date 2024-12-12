@@ -12,8 +12,8 @@
     $real = 10.5;
     $cadena = "Hola, este es un ejemplo.";
 
-    echo "El valor de la variable real es: $real\n";
-    echo "El valor de la variable cadena es: $cadena\n";
+    echo "El valor de la variable real es: $real";
+    echo "El valor de la variable cadena es: $cadena";
     ?>
 </body>
 
