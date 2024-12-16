@@ -12,8 +12,8 @@
     $lado = 5;
     $area = $lado * $lado;
 
-    echo "Vamos a calcular el area de un cuadrado: <br>";
-    echo "Si el area del cuadrado es $lado cm, el total serian= $total cm";
+    echo "Vamos a calcular el area de un cuadrado <br>";
+    echo "Si el area del cuadrado es $lado cm, el total serian= $area cm";
     ?>
 </body>
 
