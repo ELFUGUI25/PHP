@@ -10,12 +10,12 @@
 <body>
     <?php
     $niños = 17;
-    $niñes = 10;
+    $niñes = 1;
 
     $total = $niños + $niñes;
 
-    $porc_niño = $niños / $total;
-    $porc_niñe = $niñas / $total;
+    $porc_niño = (100 * $niños) / $total;
+    $porc_niñe = (100 * $niñes) / $total;
 
     echo "Esta es la clase de 2 año de ASIR";
     echo "En esta clase hay $niños niños y $niñes niñes <br>";
