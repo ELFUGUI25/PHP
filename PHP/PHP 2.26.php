@@ -16,7 +16,7 @@
     $usuario2 = 1100;
     $usuario3 = 900;
 
-    $cal_ant = $usuario1 * $aumento2;
+    $cal_ant = $usuario1 * $aumento1;
     $cal_pd = $usuario2 * $aumento2;
     $cal_fran = $usuario3 * $aumento3;
 
