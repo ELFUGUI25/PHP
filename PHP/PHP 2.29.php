@@ -27,9 +27,9 @@
 
     echo "La tienda ha aplicado un 15% de descuento a sus 3 primeras compras del mes<br><br>";
 
-    echo "La primera compra fue de $compra1 y despues del descuento se quedo en: $calc1  <br>";
-    echo "La segunda compra fue de $compra2 y despues del descuento se quedo en: $calc2  <br>";
-    echo "La tercera compra fue de $compra3 y despues del descuento se quedo en: $calc3 <br>";
+    echo "La primera compra fue de $compra1 euros y despues del descuento se quedo en: $calc1  <br>";
+    echo "La segunda compra fue de $compra2 euros y despues del descuento se quedo en: $calc2  <br>";
+    echo "La tercera compra fue de $compra3 euros y despues del descuento se quedo en: $calc3 <br>";
 
     ?>
 
