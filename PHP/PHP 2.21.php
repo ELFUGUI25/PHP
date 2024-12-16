@@ -10,7 +10,7 @@
 <body>
     <?php
     $base = 5;
-    $altura = 5;
+    $altura = 7;
     $area = ($base * $altura) / 2;
 
     echo "Vamos a calcular el area de un triangulo <br>";
