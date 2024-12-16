@@ -18,7 +18,7 @@
     $division = $num1 / $num2;
 
 
-    echo "Vamos a calcular la suma, resta, multiplicacion y division de dos numeros <br><br>";
+    echo "Vamos a calcular la suma, resta, multiplicacion y division de dos numeros, el primero es $num1 y el segundo es $num2<br><br>";
 
     echo "La suma es: $suma  <br>";
     echo "La resta es: $resta <br>";
