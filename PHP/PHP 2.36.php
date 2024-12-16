@@ -31,15 +31,15 @@
     $cuad9 = $num9 * $num9;
 
     echo "ESTO SON LOS CUADRADOS DEL 1 AL 9<br><br>";
-    echo "El cuadrado de $num1 es $cuad1";
-    echo "El cuadrado de $num2 es $cuad2";
-    echo "El cuadrado de $num3 es $cuad4";
-    echo "El cuadrado de $num4 es $cuad4";
-    echo "El cuadrado de $num5 es $cuad5";
-    echo "El cuadrado de $num6 es $cuad6";
-    echo "El cuadrado de $num7 es $cuad7";
-    echo "El cuadrado de $num8 es $cuad8";
-    echo "El cuadrado de $num9 es $cuad4";
+    echo "El cuadrado de $num1 es $cuad1<br>";
+    echo "El cuadrado de $num2 es $cuad2<br>";
+    echo "El cuadrado de $num3 es $cuad4<br>";
+    echo "El cuadrado de $num4 es $cuad4<br>";
+    echo "El cuadrado de $num5 es $cuad5<br>";
+    echo "El cuadrado de $num6 es $cuad6<br>";
+    echo "El cuadrado de $num7 es $cuad7<br>";
+    echo "El cuadrado de $num8 es $cuad8<br>";
+    echo "El cuadrado de $num9 es $cuad9<br>";
     ?>
 </body>
 
