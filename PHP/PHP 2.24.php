@@ -17,8 +17,8 @@
     $porc_niño = (100 * $niños) / $total;
     $porc_niñe = (100 * $niñes) / $total;
 
-    echo "Esta es la clase de 2 año de ASIR";
-    echo "En esta clase hay $niños niños y $niñes niñes <br>";
+    echo "Esta es la clase de 2 año de ASIR <br>";
+    echo "En esta clase hay $niños niños y $niñes niñes <br><br>";
     echo "El porcentaje de cada niños de esta clase es, $porc_niño % <br>";
     echo "El porcentaje de cada niñes de esta clase es, $porc_niñe % <br>";
     ?>
