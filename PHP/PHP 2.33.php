@@ -11,14 +11,19 @@
     <?php
 
     $c1 = 10;
-    $c1 = 7;
+    $c2 = 7;
+
+    $c12 = $c1 * $c1;
+    $c22 = $c2 * $c2;
+
 
 
     echo "Voy a calcular la hipotenusa de un triangulo<br><br>";
 
-    echo "La suma de los catetos al cuadrado es igual a la hipotenusa:";
-    echo "La hpitenusa es: " . pow($c1, 2) + pow($c2, 2) . "<br>";
+    echo "La suma de los catetos al cuadrado es igual a la hipotenusa al cuadrado: <br>";
+    echo "El primer cateto es $c1 y el segundo es $c2, elevados serian $c12 y $c22 <br>";
 
+    echo "La hipotenusa es: " . pow($c1, 2) + pow($c2, 2) . "<br>";
     ?>
 </body>
 
