@@ -28,8 +28,8 @@
     echo "Hay 3 empleados a destacar, Antonio con $usuario1 euros, Pedro con $usuario2 euros y Fran con $usuario3, deberian haber pagado hace unos meses <br><br>";
 
     echo "Para Antonio habara un aumento del 13%, su sueldo actual es 1300 euros, por lo que aumentaria a: $aumento_ant  <br>";
-    echo "Para Antonio habara un aumento del 26%, su sueldo actual es 1100 euros, por lo que aumentaria a: $aumento_pedr  <br>";
-    echo "Para Antonio habara un aumento del 36%, su sueldo actual es 900 euros, por lo que aumentaria a: $aumento_fran  <br>";
+    echo "Para Pedro habara un aumento del 26%, su sueldo actual es 1100 euros, por lo que aumentaria a: $aumento_pedr  <br>";
+    echo "Para Fran habara un aumento del 36%, su sueldo actual es 900 euros, por lo que aumentaria a: $aumento_fran  <br>";
     ?>
 </body>
 
