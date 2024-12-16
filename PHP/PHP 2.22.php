@@ -15,7 +15,7 @@
     $area = ($radio * 2) * $pi;
 
     echo "Vamos a calcular el area de un circulo <br>";
-    echo "Si el radio del circulo es $radio cm, el total serian= $area cm";
+    echo "Si el radio del circulo es $radio cm y pi vale $pi, el total serian= $area cm";
     ?>
 </body>
 
