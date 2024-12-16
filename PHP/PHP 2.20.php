@@ -9,7 +9,7 @@
 <?php
 $base = 10;
 $altura = 5;
-$area = $lado * $ancho;
+$area = $base * $altura;
 
 echo "Vamos a calcular el area de un rectangulo <br>";
 echo "Si la base del cuadrado es $base cm y la altura $altura cm, el total serian= $area cm";
