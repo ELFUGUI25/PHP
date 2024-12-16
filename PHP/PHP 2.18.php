@@ -13,8 +13,8 @@
     $sueldo = 9;
     $sueldohora = $horas * $sueldo;
 
-    echo "Vamos a calcular el sueldo del fin de semana de una persona que ha trabajado ciertas horas:";
-    echo "Esta persona ha trabajado $horas horas";
+    echo "Vamos a calcular el sueldo del fin de semana de una persona que ha trabajado ciertas horas: <br>";
+    echo "Esta persona ha trabajado $horas horas <br>";
     echo "Si le pagan 9 euros la hora, el sueldo final es= $sueldohora";
     ?>
 </body>
