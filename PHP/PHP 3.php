@@ -8,8 +8,8 @@
 <body>
     <?php
       $var = 1;
-      while ($VAR < 2){
-       echo $var;
+      while ($var <= 3){
+       echo "$var<br>";
        $var++;
     }
     ?>
