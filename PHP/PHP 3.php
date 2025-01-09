@@ -6,6 +6,12 @@
     <title>PHP 3.1</title>
 </head>
 <body>
-    
+    <?php
+      $var = 1;
+      while ($VAR < 2){
+       echo $var;
+       $var++;
+    }
+    ?>
 </body>
 </html>
