@@ -9,7 +9,7 @@
     <?php
       $var = 5;
       echo "se van a escribir numeros del 5 al 15.000<br>";
-      while ($var <= 15.000){
+      while ($var <= 15000){
     
        echo "$var<br>";
        $var++;
