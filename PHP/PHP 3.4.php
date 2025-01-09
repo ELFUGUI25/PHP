@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-      $var = 5
+      $var = 5;
       echo "se van a escribir numeros del 5 al 10<br>";
       while ($var <= 10){
     
