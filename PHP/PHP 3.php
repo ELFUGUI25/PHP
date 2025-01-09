@@ -8,8 +8,9 @@
 <body>
     <?php
       $var = 1;
+      echo "se van a escribir numeros del 1 al 3 <br>";
       while ($var <= 3){
-       echo "se van a escribir numeros del 1 al 3";
+    
        echo "$var<br>";
        $var++;
     }
