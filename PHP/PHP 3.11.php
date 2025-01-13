@@ -14,7 +14,7 @@ for ($i = 1; $i <= 100; $i++) {
     $suma_cuadrados += $i * $i; // Cuadrado del número actual
 }
 
-echo "La suma de los cuadrados de los 100 primeros números naturales es: $suma_cuadrados\n";
+echo "La suma de los cuadrados de los 100 primeros números naturales es: $suma_cuadrados: <br>";
 ?>
 
 </body>
