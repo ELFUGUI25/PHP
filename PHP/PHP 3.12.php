@@ -8,15 +8,18 @@
 <body>
 <?php
 // Pedimos al usuario que introduzca un número
-echo "Introduce un número entero: ";
-$numero = intval(trim(fgets(STDIN))); // Leemos la entrada del usuario y convertimos a entero
+echo "Introduce un número entero: <br>";
+$numero = 1;
 
 $suma = 0;
+$contador = 1;
 
-for ($i = 1; $i <= 100; $i++) {
-    $suma += $numero + $i; 
+while ($contador <= 100) {
+    $suma += $numero + $contador; 
+    $contador++;  
 }
-echo "La suma de los 100 números siguientes a $numero es: $suma\n";
+
+echo "La suma de los 100 números siguientes es: $suma\n";
 ?>
 
 </body>
