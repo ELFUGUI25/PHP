@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-<?php
+    <?php
 $numero = 1;
 
 $suma = 0;
