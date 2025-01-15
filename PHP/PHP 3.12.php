@@ -17,7 +17,7 @@ while ($contador <= 100) {
     $contador++;  
 }
 
-echo "La suma de los 100 números siguientes es: $suma\n";
+echo "La suma de los 100 números siguientes es: $suma";
 ?>
 
 </body>
