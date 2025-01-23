@@ -11,9 +11,9 @@
         <input type="number" id="numero" name="numero" required>
         <button type="submit">Calcular</button>
     </form>
-
-    <?php
     
+    <?php
+
     if (isset($_GET['numero'])) {
         $numero = $_GET['numero'];
 
