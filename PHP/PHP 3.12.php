@@ -3,22 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario de Suma</title>
 </head>
 <body>
-<?php
-$numero = 1;
+    <form method="GET" action="">
+        <label for="numero">Escriba el número que desea sumar:</label>
+        <input type="number" id="numero" name="numero" required>
+        <button type="submit">Calcular</button>
+    </form>
 
-$suma = 0;
-$contador = 1;
+    <?php
+    
+    if (isset($_GET['numero'])) {
+        $numero = $_GET['numero'];
 
-while ($contador <= 100) {
-    $suma += $numero + $contador; 
-    $contador++;  
-}
+        $suma = 0;
+        for ($i = 1; $i <= 100; $i++) {
+            $suma += $numero + $i;
+        }
 
-echo "La suma de los 100 números siguientes es: $suma";
-?>
-
+        echo "<h2>Resultado de la suma de los 100 primeros números:</h2>";
+        echo "<p>El número ingresado es: $numero</p>";
+        echo "<p>La suma final es: $suma</p>";
+    }
+    ?>
 </body>
 </html>
