@@ -14,6 +14,8 @@
     </form>
 
     <?php
+    
+    //tasa de conversión de euros a dólares
     define('TASA_CONVERSION', 1.1);
 
     if (isset($_GET['numero'])) {
