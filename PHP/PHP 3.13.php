@@ -1,33 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Calculadora de Área de un Rectángulo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Euros a Dólares</title>
 </head>
 <body>
-    <h2>Calculadora de Área de un Rectángulo</h2>
-    <form method="post">
-        <label for="altura">Altura:</label>
-        <input type="number" step="0.01" name="altura" required>
-        <br>
-        <label for="anchura">Anchura:</label>
-        <input type="number" step="0.01" name="anchura" required>
-        <br>
-        <input type="submit" name="calcular" value="Calcular Área">
+    <h1>Conversor de Euros a Dólares</h1>
+    <form method="get" action="">
+        <label for="numero">Introduce la cantidad en euros:</label><br>
+        <input type="number" id="numero" name="numero" step="0.01" placeholder="Cantidad en euros" required><br>
+        <button type="submit">Convertir</button>
     </form>
 
     <?php
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $altura = floatval($_POST['altura']);
-        $anchura = floatval($_POST['anchura']);
+    
+    //tasa de conversión de euros a dólares
+    define('TASA_CONVERSION', 1.1);
+
+    if (isset($_GET['numero'])) {
+        $euros = floatval($_GET['numero']);
         
-        if ($altura > 0 && $anchura > 0) {
-            $area = $altura * $anchura;
-            echo "<h3>El área del rectángulo es: " . number_format($area, 2) . " metros cuadrados.</h3>";
-        } else {
-            echo "<h3>Por favor, ingresa valores positivos.</h3>";
-        }
+        $dolares = $euros * TASA_CONVERSION;
+        
+        echo "<div class='resultado'>" . number_format($euros, 2) . " euros equivalen a " . number_format($dolares, 2) . " dólares.</div>";
     }
     ?>
 </body>
 </html>
-
