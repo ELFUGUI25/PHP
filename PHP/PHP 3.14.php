@@ -6,10 +6,10 @@
 <body>
     <h2>Calculadora de Área de un Rectángulo</h2>
     <form method="post">
-        <label for="altura">Altura (en metros):</label>
+        <label for="altura">Altura:</label>
         <input type="number" step="0.01" name="altura" required>
         <br>
-        <label for="anchura">Anchura (en metros):</label>
+        <label for="anchura">Anchura:</label>
         <input type="number" step="0.01" name="anchura" required>
         <br>
         <input type="submit" name="calcular" value="Calcular Área">
