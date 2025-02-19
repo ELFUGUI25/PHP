@@ -7,7 +7,7 @@
 </head>
 <body>
 <?php
-$variable = "Hola Mundo";
+$variable = "Hola";
 
 if (isset($variable)) {
     echo "La variable está definida y no es nulo.";
